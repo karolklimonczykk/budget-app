@@ -79,7 +79,7 @@ The project is structured as a monorepo with a clear separation between backend 
 <p align="center"><img src="https://i.imgur.com/J3ubXQM.png" alt="erd-diragram" width="80%"/></p>
 <h2>▶️ Getting Started</h2>
 <h4>1. Clone repository</h4>
-<code>git clone https://github.com/karolklimonczykk/budget-app.git</code>
+<code>git clone https://github.com/karolklimonczykk/budget-app.git</code><br>
 <code>cd budget-app</code>
 <h4>2. Run database (Docker)</h4>
 <code>docker compose up -d</code>
