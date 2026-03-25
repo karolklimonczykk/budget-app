@@ -14,13 +14,13 @@ The project is structured as a monorepo with a clear separation between backend 
 <ul>
 <li>Add, update and delete transactions</li>
 <li>Categorize transactions (tags, notes)</li>
-<li>View balance summary</li>
+<li>View balance summary for given period of time</li>
 </ul>
 <h3>👥 Group Management</h3>
 <ul>
 <li>Create and manage groups</li>
 <li>Add and remove members</li>
-<li>Track shared expenses</li>
+<li>Track shared expenses/incomes</li>
   </ul>
 <h3>💸 Debt System</h3>
   <ul>
