@@ -90,3 +90,25 @@ The project is structured as a monorepo with a clear separation between backend 
 <code>cd Frontend</code><br>
 <code>npm ci</code><br>
 <code>npm run dev</code>
+<h2>📸 Screenshots</h2>
+<p align="center"><img src="https://i.imgur.com/tUKvws5.png" /></p>
+<p align="center"><img src="https://i.imgur.com/ab4GCtN.png" /></p>
+<p align="center"><img src="https://i.imgur.com/5dfwrmO.png" /></p>
+<p align="center"><img src="https://i.imgur.com/cf4Xm7o.png" /></p>
+<p align="center"><img src="https://i.imgur.com/EjLpydy.png"/></p>
+<p align="center"><img src="https://i.imgur.com/CUGqvbM.png"/></p>
+<p align="center"><img src="https://i.imgur.com/EpiIMQG.png"/></p>
+<p align="center"><img src="https://i.imgur.com/i1OLLAe.png"/></p>
+<p align="center"><img src="https://i.imgur.com/2lfPyF2.png"/></p>
+<p align="center"><img src="https://i.imgur.com/o3A1WfQ.png"/></p>
+<p align="center">Debt repayment for user <code>test2@test.pl</code></p>
+<p align="center"><img src="https://i.imgur.com/Zs3uMDa.png"/></p>
+<p align="center">Payment confirmation - user view <code>test@test.pl</code></p>
+<p align="center"><img src="https://i.imgur.com/nF4r51z.png"/></p>
+<p align="center"><img src="https://i.imgur.com/33yaF5C.png"/></p>
+<p align="center">Payment confirmation - user view <code>test2@test.pl</code></p>
+<p align="center"><img src="https://i.imgur.com/vgU0enB.png"/></p>
+<p align="center">user <code>test@test.pl</code> transaction list:</p>
+<p align="center"><img src="https://i.imgur.com/RKfUmQr.png"/></p>
+<p align="center">user <code>test2@test.pl</code> transaction list:</p>
+<p align="center"><img src="https://i.imgur.com/90y34Xt.png"/></p>
