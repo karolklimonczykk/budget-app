@@ -112,3 +112,15 @@ The project is structured as a monorepo with a clear separation between backend 
 <p align="center"><img src="https://i.imgur.com/RKfUmQr.png"/></p>
 <p align="center">user <code>test2@test.pl</code> transaction list:</p>
 <p align="center"><img src="https://i.imgur.com/90y34Xt.png"/></p>
+<h2>🎯 What This Project Demonstrates</h2>
+<ul>
+<li>Full-stack development (Java + React)</li>
+<li>GraphQL API design</li>
+<li>Clean backend architecture (layered approach)</li>
+<li>Handling complex relationships (groups, debts)</li>
+<li>Integration between frontend and backend</li>
+<li>Working with Docker and CI pipelines</li>
+</ul>
+<h2>👤 Author</h2>
+<b>Karol Klimończyk</b>
+<p>GitHub: https://github.com/karolklimonczykk</p>
