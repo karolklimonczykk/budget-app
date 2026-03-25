@@ -76,7 +76,7 @@ The project is structured as a monorepo with a clear separation between backend 
 }
 </code>
 <h2>📐 Data Model</h2>
-<p style="text-align:center"><img src="https://i.imgur.com/J3ubXQM.png" alt="erd-diragram" width="80%"/></p>
+<p align="center"><img src="https://i.imgur.com/J3ubXQM.png" alt="erd-diragram" width="80%"/></p>
 <h2>▶️ Getting Started</h2>
 <h4>1. Clone repository</h4>
 <code>git clone https://github.com/karolklimonczykk/budget-app.git</code>
