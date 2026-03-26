@@ -1,5 +1,10 @@
+![Java](https://img.shields.io/badge/backend-Java-orange)
+![Spring Boot](https://img.shields.io/badge/framework-SpringBoot-green)
+![React](https://img.shields.io/badge/frontend-React-blue)
+![GraphQL](https://img.shields.io/badge/API-GraphQL-pink)
 <h1>💰 Budget App – Full Stack Finance Manager</h1>
-<p>A full-stack application for managing personal and group finances, built with Spring Boot (GraphQL) and React (Vite + TypeScript).</p>
+
+> Full-stack finance manager with group expenses, debt tracking, and real-time balance analysis.
 <h2>🚀 Overview</h2>
 <p>Budget App is a full-stack system that allows users to:
 <ul>
@@ -56,16 +61,21 @@ The project is structured as a monorepo with a clear separation between backend 
 <h2>🔌 API (GraphQL)</h2>
 <p>The backend exposes a GraphQL API with queries and mutations.</p>
 <h4>Example Query</h4>
-<code>query {
+
+```bash
+query {
   transactions {
     id
     amount
     type
   }
 }
-</code>
+```
+
 <h4>Example Mutation</h4>
-<code>mutation {
+
+```bash
+mutation {
   addTransaction(transactionDTO: {
     amount: 100
     type: "EXPENSE"
@@ -74,31 +84,60 @@ The project is structured as a monorepo with a clear separation between backend 
     id
   }
 }
-</code>
+```
+
 <h2>📐 Data Model</h2>
 <p align="center"><img src="https://i.imgur.com/J3ubXQM.png" alt="erd-diragram" width="80%"/></p>
 <h2>▶️ Getting Started</h2>
 <h4>1. Clone repository</h4>
-<code>git clone https://github.com/karolklimonczykk/budget-app.git</code><br>
-<code>cd budget-app</code>
+
+```bash
+git clone https://github.com/karolklimonczykk/budget-app.git
+cd budget-app
+```
+
 <h4>2. Run database (Docker)</h4>
-<code>docker compose up -d</code>
+
+```bash
+docker compose up -d
+```
+
 <h4>3. Run backend</h4>
-<code>cd Backend</code><br>
+
+```bash
+cd Backend
+```
+
 <span>Using Maven:</span><code>./mvnw spring-boot:run</code><span>, or directly in IntelliJ.</span>
 <h4>4. Run frontend</h4>
-<code>cd Frontend</code><br>
-<code>npm ci</code><br>
-<code>npm run dev</code>
+
+```bash
+cd Frontend
+npm ci
+npm run dev
+```
+
 <h2>📸 Screenshots</h2>
+
+### 📊 Dashboard
+
 <p align="center"><img src="https://i.imgur.com/tUKvws5.png" /></p>
 <p align="center"><img src="https://i.imgur.com/ab4GCtN.png" /></p>
 <p align="center"><img src="https://i.imgur.com/5dfwrmO.png" /></p>
+
+### 💸 Transactions
+
 <p align="center"><img src="https://i.imgur.com/cf4Xm7o.png" /></p>
 <p align="center"><img src="https://i.imgur.com/EjLpydy.png"/></p>
 <p align="center"><img src="https://i.imgur.com/CUGqvbM.png"/></p>
+
+### 👥 Groups
+
 <p align="center"><img src="https://i.imgur.com/EpiIMQG.png"/></p>
 <p align="center"><img src="https://i.imgur.com/i1OLLAe.png"/></p>
+
+### 🔁 Debt Flow
+
 <p align="center"><img src="https://i.imgur.com/2lfPyF2.png"/></p>
 <p align="center"><img src="https://i.imgur.com/o3A1WfQ.png"/></p>
 <p align="center">Debt repayment for user <code>test2@test.pl</code></p>
@@ -123,4 +162,4 @@ The project is structured as a monorepo with a clear separation between backend 
 </ul>
 <h2>👤 Author</h2>
 <b>Karol Klimończyk</b>
-<p>GitHub: https://github.com/karolklimonczykk</p>
+[GitHub](https://github.com/karolklimonczykk)
