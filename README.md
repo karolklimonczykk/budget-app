@@ -62,7 +62,7 @@ The project is structured as a monorepo with a clear separation between backend 
 <p>The backend exposes a GraphQL API with queries and mutations.</p>
 <h4>Example Query</h4>
 
-```bash
+```graphql
 query {
   transactions {
     id
@@ -74,7 +74,7 @@ query {
 
 <h4>Example Mutation</h4>
 
-```bash
+```graphql
 mutation {
   addTransaction(transactionDTO: {
     amount: 100
@@ -140,16 +140,16 @@ npm run dev
 
 <p align="center"><img src="https://i.imgur.com/2lfPyF2.png"/></p>
 <p align="center"><img src="https://i.imgur.com/o3A1WfQ.png"/></p>
-<p align="center">Debt repayment for user <code>test2@test.pl</code></p>
+<p align="center"><b>Debt repayment for user <code>test2@test.pl</code></b></p>
 <p align="center"><img src="https://i.imgur.com/Zs3uMDa.png"/></p>
-<p align="center">Payment confirmation - user view <code>test@test.pl</code></p>
+<p align="center"><b>Payment confirmation - user view <code>test@test.pl</code></b></p>
 <p align="center"><img src="https://i.imgur.com/nF4r51z.png"/></p>
 <p align="center"><img src="https://i.imgur.com/33yaF5C.png"/></p>
-<p align="center">Payment confirmation - user view <code>test2@test.pl</code></p>
+<p align="center"><b>Payment confirmation - user view <code>test2@test.pl</code></b></p>
 <p align="center"><img src="https://i.imgur.com/vgU0enB.png"/></p>
-<p align="center">user <code>test@test.pl</code> transaction list:</p>
+<p align="center"><b>user <code>test@test.pl</code> transaction list:</b></p>
 <p align="center"><img src="https://i.imgur.com/RKfUmQr.png"/></p>
-<p align="center">user <code>test2@test.pl</code> transaction list:</p>
+<p align="center"><b>user <code>test2@test.pl</code> transaction list:</b></p>
 <p align="center"><img src="https://i.imgur.com/90y34Xt.png"/></p>
 <h2>🎯 What This Project Demonstrates</h2>
 <ul>
@@ -161,5 +161,6 @@ npm run dev
 <li>Working with Docker and CI pipelines</li>
 </ul>
 <h2>👤 Author</h2>
-<b>Karol Klimończyk</b>
+Karol Klimończyk
+
 [GitHub](https://github.com/karolklimonczykk)
